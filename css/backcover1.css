@@ -1,0 +1,29 @@
+.backround {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    background-image: url(../pics/nature.jpg);
+    background-size: cover;
+    background-position: center left;
+}
+
+.backtop {
+    height: 400px;
+    width: 400px;
+    border: 2px solid red;
+    background-image: url(../pics/rosepic.jpg);
+    background-size: cover;
+    background-position: center bottom;
+
+}
+
+.contain {
+    height: 700px;
+    width: 700px;
+    border: 2px solid red;
+    background-image: url(../pics/bitlogo.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}

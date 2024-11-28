@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+   
+  
+}
+
+header .container  {
+    display: flex;
+    justify-content: space-between;  
+
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;  
+}
+
+.images img {
+    width: 170px;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+}
+ header ul {
+    display: flex;
+    column-gap: 20px;
+    list-style-type: none;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.post {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    background-color: #C40D6C;
+}
+
+a:hover { 
+    color: rgb(14, 37, 171);
+    
+    
+}
+
+#hero img {
+    width: 100%
+}
+
+

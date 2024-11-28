@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'mona';
+    src: url(../font/MonaSans-Bold.otf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ;
+    src: url(../font/MonaSans-Medium.otf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mona';
+    src: url(../font/MonaSans-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'mona';
+    background-color: #9C80F3;
+}
+
+.productcard {
+    width: 550px;
+    height: 300px;
+    /* border: 2px solid black; */
+    margin: 50px auto;
+    border-radius: 10px;
+
+}
+
+.datacard {
+    width: 52%;
+    height: 100%;
+    /* border: 1px solid red; */
+    float: left;
+    padding: 15px;
+    background-color: white;
+
+}
+
+.starrating {
+    padding-top: 3px;
+
+}
+
+.yellow {
+    color: yellow;
+}
+
+.datacard p {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.buynowprice {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.price {
+    width: 40px;
+    height: 30px;
+    /* border: 1px solid black; */
+    background-color: black;
+    border-radius: 3px;
+    float: left;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    font-size: 15px;
+    padding-top: 4px;
+}
+
+.buynow {
+
+    background-color: rgb(23, 214, 16);
+    color: white;
+    border-radius: 3px;
+    float: left;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    /* border: 1px solid pink; */
+    color: rgb(148, 59, 59);
+    padding-top: 3px;
+}
+
+.images {
+    width: 48%;
+    height: 100%;
+    /* border: 1px solid maroon; */
+    float: left;
+}
+
+
+.images img {
+    width: 100%;
+    height: 100%;
+}

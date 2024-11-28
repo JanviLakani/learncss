@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #01E37F;
+}
+
+.applecard {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    /* border: 1px solid black; */
+    margin: 20px auto;
+    background-color: white;
+}
+
+.smallapple {
+    position: absolute;
+    left: -25px;
+    top: 15px;
+    width: 250px;
+    height: 300px;
+    /* border: 1px solid green; */
+    background-color: #AEE732;
+}
+
+.smallapple .redgreen {
+    width: 100%;
+    position: absolute;
+    left: -45px;
+
+}
+
+.greenapple {
+
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 2px;
+    background-color: white;
+    
+}
+
+.greena1 {
+    height: 100%;
+    width: 25%;
+    border: 1px solid gray;
+    float: left;
+    background-color: white;    
+}
+
+.greena1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.smallapple .white {
+    color: white;
+    padding: 10px;
+}
+
+.smallapple .white1 {
+    color: white;
+    padding: 10px;
+    float: right;
+}
+
+
+.appledata {
+    padding-left: 42%;
+    /* padding-top: 3%; */
+    
+}
+
+.appledata h2 {
+    padding-top: 5%;
+}
+
+
+.appledata h5 {
+    color: gray;  
+}
+
+
+
+.price {
+    color: red; 
+    font-size: 15px;
+
+}
+.prices {
+    color: red;
+    padding: 10px;
+    display: inline-block;
+    font-size: 35px;
+
+}
+
+
+.appledata h6 {
+    clear: both;
+    color: gray;
+    padding-bottom: 5px;
+    
+}
+
+.color {
+    width: 44%;
+    height: 45px;
+    /* border: 2px solid gray */
+   
+}
+
+.cloloapple {
+    width: 25%;
+    height: 100%;
+    float: left;
+    border: 1px solid gray;
+}
+
+.cloloapple img {
+    width: 100%;
+    height: 100%;
+}
+
+.cloloapple .graya {
+    width: 25%;
+    height: 100%;
+    border: 2px solid greenyellow;
+}
+
+.benefits h6 {
+    color: grey;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.benefits {
+    clear: both;
+    /* font-family: sans-serif; */
+}
+
+.benefits .health {
+    font-family: sans-serif;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.benefits .addto {
+    display: inline-block;
+    padding: 9px;
+    background-color: red;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

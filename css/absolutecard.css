@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #FDCD9D;
+}
+
+.absocard {
+    width: 300px;
+    height: 450px;
+    /* border: 2px solid black; */
+    margin: 100px auto;
+    background-color: white;  
+}
+.images img {
+    position: absolute;
+    top: -100px;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.images {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+}
+
+.name {
+    text-align: center;
+    color: rgb(26, 26, 89);
+    padding: 10px;
+}
+
+.name h3 {
+    padding: 25px 0;
+    font-size: 35px;
+}
+
+.name p {
+    line-height: 25px;
+}
+.name h2 {
+    padding: 20px 0;
+}
+.name .addto {
+    display: inline-block;
+    padding: 8px;
+    background-color: orange;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+

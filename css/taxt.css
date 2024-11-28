@@ -1,0 +1,136 @@
+.colName {
+
+ color: red;
+
+}
+
+/* 0-9 a-f */
+
+.colHash {
+    color: #000000;
+    color: #ffffff;
+    color: #ff0000;
+    color: #00ff00;
+    color: #0000ff;
+    color: #f851dd;
+    color: #f111dd;
+    color: #ceb123;
+    
+}
+
+/* 0-255 */
+
+.colRGBA { 
+     /* RGBA FULLFORM */
+    /* color ( red,green, blue, alpha) */
+
+
+ color: rgba(0,0,0,1);
+ color: rgba(255, 255, 255, 1);
+ color: rgba(255, 0, 0, 1);
+ color: rgba(0,255, 0, 1);
+ color: rgba(0, 0, 255, 1);
+ color: rgba(231, 143, 10, 0.8);
+ color: rgba(16, 149, 16, 0.924);
+}
+
+/*  color :hsla:-hue-0-360, saturation:- 0-100%, 
+lightness :- 0-100%, alpha  :-0-1*/
+
+.colHSLA {
+    /* color: hsla(hue, saturation, lightness, 
+    alpha); */
+
+    color: hsla(162, 56%, 53%, 0.886);
+
+}
+.colHSLA1 {
+    color: hsla(200, 88%, 50%, 0.90);
+}
+
+/* ------------------- */
+
+.alcenter{
+    text-align: center;
+}
+
+.alRight{
+    text-align: right;
+}
+
+.aljust{
+    text-align: justify;
+}
+
+
+/* ------------------------- */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.uppercase1 {
+    text-transform: uppercase;
+}
+
+/* --------------------- */
+
+
+.underline {
+    text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.none{
+    text-decoration: none;
+}
+
+.letter-spacing{
+    letter-spacing: 5px;
+}
+
+.word-spacing {
+
+    word-spacing: 10px;
+}
+
+.while-spac{
+   white-space: nowrap
+   ;
+}
+
+.textindent {
+    text-indent: 50px;
+}
+
+.lineheight {
+    line-height: 70px;
+}
+
+#serif {
+    font-family: serif;
+}
+
+
+
+
+
+
+
+
+

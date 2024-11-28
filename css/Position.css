@@ -1,0 +1,44 @@
+.box {   
+    width: 100px;
+    height: 200px;
+    border: 2px solid rgb(138, 54, 54);
+    background-color: aqua;
+}
+.stbox {
+    position: static;
+    left: 100px;
+    right: 200px;
+}
+.relbox {
+    position: relative;
+    left: 100px;
+    right: 100px;
+    top: 20px;
+}
+.absbox {
+    position: absolute;
+    left: 250px;
+    right: 500px;
+}
+.parentiv {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border: 2px solid red;
+}
+.childbox {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    right: 20px;
+}
+.fixbox {
+    position: fixed;
+    top: 50px;
+    left: 500px;
+}
+.stickybox {
+    position: sticky;
+    left: 50px;
+    top: 100px;
+}

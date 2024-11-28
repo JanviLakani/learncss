@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Monasans';
+    src: url(../font/MonaSans-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'Monasans';
+    src: url(../font/MonaSans-Medium.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monasans';
+    src: url(../font/MonaSans-Bold.otf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Monasans';
+    background-color: #E0C9CB
+}
+
+.propic {
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid burlywood; */
+    float: left;
+    margin-bottom: 10px;
+}
+
+
+.mainproduct {
+    height: 348px;
+    width: 500px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 10px;
+    margin: 80px auto; 
+    background-color: white;
+    
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.size h4 {
+    color: #E0C9CB;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+
+}
+
+.photo {
+    width: 100%;
+    height: 75%;
+}
+
+.size {
+    margin-left: 15px;
+    /* width: 25%; */
+    width: 100%;
+    height: 25%;
+    /* border: 1px solid blue; */
+    margin: 5px;
+    padding: 3px;
+    padding-left: 15px;
+}
+
+
+.size .box {
+    float: left;
+    padding-right: 4px;
+    padding-left: 4px;
+    border: 1px solid #E0C9CB;
+    margin: 3px;
+    margin-top: 10px;
+    background-color: white;
+    color: #E0C9CB;
+    width: 24px;
+    font-size: 12px;
+    padding: 4px 7px;
+    height: 24px;
+    
+}
+
+.prodata {
+    height: 100%;
+    width: 40%;
+    float: left;
+    /* border: 1px solid purple; */
+}
+
+.prodata h4 {
+    margin-top: 10px;
+    font-style: bold;
+    font-weight: 200;
+    font-size: 10px;
+    color: #E0C9CB;
+    padding-top: 30px;
+}
+
+.prodata h2 {
+    margin-top: 2px;
+    /* font-weight: 300; */
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+
+}
+
+.prodata h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #E0C9CB;
+
+}
+
+.prodata p {
+    margin-top: 2px;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 13px;
+    color: black;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+
+.prodata button {
+    margin-top: 20px;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    color: white;
+    background: #CDA9AC;
+    border: 2px solid #CDA9AC;
+    padding: 8px 17px;
+    margin-top: 30px;
+
+}
+
+
+
+
+

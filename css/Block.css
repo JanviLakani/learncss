@@ -1,0 +1,94 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+
+    width: 400px;
+    height: 150px;
+    border : 2px solid black;
+    /* padding-left: 28px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px; */
+    /* padding: 15px; */
+    padding: 20px 25px;
+    /* padding: 12px 24px 10px;
+    padding: 10px 20px 30px 40px; */
+    /* margin: 70px;
+    margin: 100px 50px; */
+    /* margin: 120px 240px 30px; */
+    margin: 15px 30px 20px 8px;
+    float: left;
+    border-radius: 10px;
+
+}
+
+.box2 {
+
+    width: 350px;
+    height: 150px;
+    border: 2px solid red;
+    float: left;
+    padding: 20px 40px;
+    /* padding: 10px; */
+    /* padding: 20px 40px; */
+    margin: 15px 30px 20px 8px;
+    /* margin: 50px; */
+    /* padding: 60px; */
+    border-radius: 20px;
+}
+
+.box3 {
+     width: 300px;
+     /* height: 140px; */
+     height: 300px;
+     border: 2px solid blueviolet;
+     clear: both;
+     padding: 20px 40px;
+     /* margin: 30px; */
+     margin: 15px 30px 20px 8px;
+     /* border-radius: 50%; */
+     border-radius: 20px;
+     float: left;
+}
+
+.box4 {
+
+    width: 300px;
+    height: 200px;
+    border: 2px solid palevioletred;
+    padding: 20px;
+    padding: 20px 40px;
+    margin: 15px 30px 20px 8px;
+    float: left;
+
+}
+
+
+.mithi1 {
+
+    width: 300px;
+    height: 150px;
+    border: 3px solid yellow;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+    clear: both;
+    float: left;
+}
+
+.class1 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid palevioletred;
+    padding: 20px;
+    padding: 20px 40px;
+    margin: 15px 30px 20px 8px;
+    float: right;
+    
+
+}

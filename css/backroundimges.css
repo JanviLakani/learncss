@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: #F3E1E2;
+}
+.mainbox {
+    /* width: 500px; */
+    width: 600px;
+    /* height: 350px; */
+    height: 400px;
+    /* border: 1px solid gray; */
+    margin: 20px auto;
+    border-radius: 5%;
+    background-color: white;
+    position: relative;
+    overflow: hidden;   
+}
+
+.pinkbox {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 25px;
+    /* border: 1px solid black; */
+    /* float: left; */
+}
+.pinkbox h1 {
+    color: #A91D46;
+    font-size: 30px;
+    padding-bottom: 20px;
+
+}
+
+.pinkbox p {
+    color: #aca6a6;
+    font-size: 15px;
+    padding-bottom: 7px;
+}
+
+.google {
+    display: inline-block;
+    color: #A91D46;
+    text-decoration: none;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #A91D46;
+    padding: 4px 11px;
+    margin-right: 10px;
+}
+.facebook {
+    display: inline-block;
+    color: #A91D46;
+    text-decoration: none;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #A91D46;
+    padding: 4px 7px;
+    margin-left: 10px;
+}
+
+.account p {
+    color: #aca6a6;
+    padding: 12px 0;
+}
+
+.account h6 {
+    color: #A91D46;
+}
+.login {
+    display: inline-block;
+    padding: 4px 25px;
+    background-color: #A91D46;
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
+    border-radius: 25px;
+    
+}
+.bannerdesign {
+    position: absolute;
+    left: 50%;
+    top: -35px;
+    width: 80%;
+    height: 110%;
+    border: 1px solid rgb(126, 23, 40);
+    /* float: left; */
+    background-image: url(../pics/poly\ banner.webp);
+    background-size: cover;
+    background-position: center right;
+    border-radius: 50%;
+
+}
+
+.forgot {
+    text-decoration: none;
+    color: #A91D46;
+}
+
+.submit {
+    color: white;
+    background-color: #A91D46;
+    padding: 4px 45px;
+    border-radius: 25px;
+    border:  none;
+}
+
+.formtag {
+    margin: 12px 0;
+    padding: 4px 0;
+
+}
+
+.password {
+    padding: 4px 0;
+}
+
+
+

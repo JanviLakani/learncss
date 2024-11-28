@@ -1,0 +1,40 @@
+.good {
+ height: 100px;
+ width: 100px;
+ background-color: aqua;
+ margin: 20px;
+ padding: 10px;
+}
+
+
+.story {
+    height: 200px;
+    width: 100px;
+    border: 2px solid red;
+    color: mediumslateblue;
+}
+
+.name {
+    height:50px;
+    width: 50px;
+    background-color: blue;
+    margin: 40px;
+    padding: 45px
+
+}
+
+.addto {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(251, 255, 0);
+}
+
+.addto1 {
+
+    width: 20%;
+    height: 25%;
+    border: 2px solid rgb(26, 26, 23);
+    color: blueviolet;
+    background-color: chartreuse;
+    display: inline-block;
+}

@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'mona';
+    src: url(../font/MonaSans-Bold.otf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mona';
+    src: url(../font/MonaSans-Medium.otf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mona';
+    src: url(../font/MonaSans-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #252831;
+    font-family: 'mona';
+}
+
+.colorshoes1 {
+    width: 600px;
+    height: 350px;
+    /* border: 1px solid black; */
+    margin: 50px auto;
+    background-color: white;
+}
+
+.shoesimages {
+    width: 45%;
+    height: 100%;
+    /* border: 1px solid yellow; */
+    float: left;
+}
+
+.shoesimages img {
+    height: 100%;
+    width: 100%;
+}
+
+.shoesdata {
+    height: 100%;
+    width: 55%;
+    /* border: 1px solid pink; */
+    float: left;
+    padding: 25px;
+    background-color: #2A2F40;
+}
+
+.shoesdata h3 {
+    color: #FF6D39;
+    float: left;
+}
+
+.icons {
+    float: right;
+    color: white;
+}
+
+.men {
+    padding: 0 15px;
+}
+
+.data {
+    color: white;
+    clear: both;
+    padding-top: 60px;
+}
+
+.data h2 {
+    padding: 12px 0;
+}
+
+.price {
+    padding: 0 25px;
+    text-decoration: line-through;
+}
+
+.sizes {
+    color: white;
+    padding: 20px 0;
+}
+
+.size7 {
+    padding: 0 20px;
+}
+
+.size9 {
+    padding: 0 20px;
+}
+
+.size10 {
+    padding-left: 20px;
+}
+
+.color h5 {
+    color: white;
+    display: inline-block;
+    float:  left;
+
+}
+
+.yellow {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.black {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+.blue {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.buynow {
+    margin: 25px 0;
+    color: white;
+}
+
+.lock1 {
+    padding-right: 12px;
+}
+
+.shop1 {
+    padding-left: 30px;
+}
+
+.cart {
+    padding-left: 12px;
+}

@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.product {
+    width: 300px;
+    height: 500px;
+    border: 2px solid red;
+    margin: 50px;
+    background-color: white;
+    margin: 20px auto;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #FFC83F;
+}
+
+.productphoto {
+    width: 100%;
+    height: 50%;
+    border: 2px solid blue;
+}
+
+.productdata {
+    width: 100%;
+    height: 50%;
+    border: 2px solid blue;
+}
+
+.productphoto img{
+
+    width: 100%;
+    height: 100%;
+}
+
+.productdata{
+    text-align: center;
+    /* margin: 5px; */
+    padding: 20px;
+}
+
+.divround {
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: black;
+    margin: 0px 10px;
+    float: left;
+}
+
+.divroundd {
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgb(155, 16, 16);
+    margin: 0px 10px;
+    float: left;
+}
+
+.divrounddd {
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgb(25, 156, 30);
+    margin: 0px 10px;
+    float: left;
+}
+
+.colors {
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.tocard {
+    clear: both;
+    padding: 20px;
+    margin: 0px;
+    margin-top: 15px;
+}
+

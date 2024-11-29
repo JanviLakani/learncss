@@ -6,6 +6,7 @@
 
 body {
     font-family: sans-serif;
+    background-image: url(../pics/client-desktop.webp);
 
 }
 
@@ -26,12 +27,13 @@ header .container  {
 
 header {
     background-color: rgba(0, 0, 0, 0.5);
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;  
 }
 
 .images img {
-    width: 170px;
+    width: 180px;
 }
 
 .left-header {
@@ -68,8 +70,22 @@ a:hover {
     
 }
 
-#hero img {
-    width: 100%
+
+/* .hero {
+    background-image: url(../pics/client-desktop.webp);
+} */
+
+
+h1 {
+    padding-top: 25%;
+    padding-left: 10%;
+    color: white;
 }
+
+p {
+    color: white;
+}
+
+
 
 

@@ -72,6 +72,7 @@ a:hover {
 #hero {
     background-image: url(../pics/client-desktop.webp);
     background-size: cover;
+    height: 100vh;
    
     
    
@@ -80,8 +81,8 @@ a:hover {
 
 .helpbusiness {
     color: white;
-    padding: 300px 0;
-    height: 100vh;
+    padding: 150px 0;
+    width: 50%;
  
 }
 

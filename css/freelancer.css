@@ -26,7 +26,8 @@ header .container  {
 
 header {
     background-color: rgba(0, 0, 0, 0.5);
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;  
 }
 
@@ -63,40 +64,54 @@ ul li a {
 }
 
 a:hover { 
-    color: rgb(14, 37, 171);
+    color: #29B2FE;    
+}
+
+
+
+#hero {
+    background-image: url(../pics/client-desktop.webp);
+    background-size: cover;
+   
     
-    
+   
+      
 }
 
-#hero img {
-    width: 100%
+.helpbusiness {
+    color: white;
+    padding: 300px 0;
+    height: 100vh;
+ 
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.helpbusiness a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    background-color: #E60278;
+    margin-top: 25px;
+   
+   
 }
 
 
-#hero img {
-    width: 100%
-}
 
 
-#hero img {
-    width: 100%
-}
-
-
-#hero img {
-    width: 100%
-}
-
-#hero img {
-    width: 100%
-}
-#hero img {
-    width: 100%
-}
-
-#herooo img {
-    width: 100%
-}
 
 
 

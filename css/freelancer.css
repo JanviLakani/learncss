@@ -4,22 +4,53 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/Roboto-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/Roboto-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/Roboto-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/Roboto-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto';
 
 }
 
 
 .container {
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
-   
-  
+
+
 }
 
-header .container  {
+header .container {
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
 
 }
 
@@ -28,26 +59,28 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     width: 100%;
-    top: 0;  
+    top: 0;
 }
 
-.images img {
-    width: 170px;
+.images {
+    width: 200px;
 }
 
 .left-header {
     display: flex;
     align-items: center;
 }
- header ul {
+
+header ul {
     display: flex;
     column-gap: 20px;
     list-style-type: none;
 }
+
 ul li a {
     color: white;
     text-decoration: none;
-    
+
 }
 
 .right-header {
@@ -57,14 +90,16 @@ ul li a {
 }
 
 .post {
+
     color: white;
     text-decoration: none;
     padding: 8px;
     background-color: #C40D6C;
+
 }
 
-a:hover { 
-    color: #29B2FE;    
+a:hover {
+    color: #29B2FE;
 }
 
 
@@ -72,27 +107,27 @@ a:hover {
 #hero {
     background-image: url(../pics/client-desktop.webp);
     background-size: cover;
-    height: 100vh;
-   
-    
-   
-      
+    height: 80vh;
+
+
+
+
 }
 
 .helpbusiness {
     color: white;
-    padding: 150px 0;
-    width: 50%;
- 
+    padding: 180px 0;
+    width: 40%;
+
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 45px;
 
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 45px;
     margin-bottom: 12px;
 }
 
@@ -103,29 +138,34 @@ p {
 .helpbusiness a {
     display: inline-block;
     text-decoration: none;
-    padding: 15px;
+    padding: 15px 30px;
     color: white;
     background-color: #E60278;
     margin-top: 25px;
-   
-    
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 20px;
+
+
+
 }
 
-.endless {
+#idea {
     padding: 85px 0;
-    
-
-
 }
 
 .endless p {
-    font-size: 20px;
+    font-size: 23px;
     padding-top: 25px;
 }
 
 .firstbox {
     padding-top: 35px;
     padding-right: 20px;
+}
+
+.mainbox img {
+    font-size: 15px;
 }
 
 .white {
@@ -144,12 +184,12 @@ p {
 
 .mainbox {
     display: flex;
-    
+
 }
 
 
 
-.images img {
+.imagess img {
     width: 100%;
     height: 100%;
 }
@@ -157,7 +197,7 @@ p {
 .mainbox1 {
     padding: 100px 0;
     display: flex;
-   
+
 }
 
 .doeswork h3 {
@@ -173,60 +213,48 @@ p {
 .doeswork a {
     display: inline-block;
     text-decoration: none;
-   padding: 10px 30px;
+    padding: 10px 30px;
     color: white;
     background-color: #E60278;
     margin-top: 25px;
-   
+
 }
 
 .mainbox2 {
     padding: 100px 0;
-    width: 50%;
 
+
+}
+
+.mainbox2 h1 {
+    padding-bottom: 40px;
 }
 
 .contact {
     display: flex;
-    padding: 45px 0;
+    padding: 65px 10px;
 }
 
 .contact h3 {
-    padding: 15px 0;
+    padding: 25px 0;
 }
 
 .contact p {
-    padding-bottom: 30px;
-}
-
-.mainbox23 {
-    width: 25%;
-    height: 25%;
+    padding-bottom: 50px;
+    padding-right: 10px;
 }
 
 .mainbox23 {
     width: 50%;
-    height: 50%;
+
+
 }
-
-
-
 
 .product {
     display: flex;
+
 }
 
 .mainbox5 {
     padding: 100px 0;
 }
-
-
-
-
-
-
-
-
-
-
-

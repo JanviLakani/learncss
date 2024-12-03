@@ -88,6 +88,7 @@ a:hover {
 
 h1 {
     font-size: 35px;
+
 }
 
 h2 {
@@ -109,6 +110,118 @@ p {
    
     
 }
+
+.endless {
+    padding: 85px 0;
+    
+
+
+}
+
+.endless p {
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.firstbox {
+    padding-top: 35px;
+    padding-right: 20px;
+}
+
+.white {
+    color: #29B2FE;
+    font-size: 44px;
+}
+
+.firstbox h2 {
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.firstbox p {
+    padding-top: 15px;
+}
+
+.mainbox {
+    display: flex;
+    
+}
+
+
+
+.images img {
+    width: 100%;
+    height: 100%;
+}
+
+.mainbox1 {
+    padding: 100px 0;
+    display: flex;
+   
+}
+
+.doeswork h3 {
+    padding: 15px 0;
+}
+
+
+.doeswork p {
+    padding-bottom: 30px;
+}
+
+
+.doeswork a {
+    display: inline-block;
+    text-decoration: none;
+   padding: 10px 30px;
+    color: white;
+    background-color: #E60278;
+    margin-top: 25px;
+   
+}
+
+.mainbox2 {
+    padding: 100px 0;
+    width: 50%;
+
+}
+
+.contact {
+    display: flex;
+    padding: 45px 0;
+}
+
+.contact h3 {
+    padding: 15px 0;
+}
+
+.contact p {
+    padding-bottom: 30px;
+}
+
+.mainbox23 {
+    width: 25%;
+    height: 25%;
+}
+
+.mainbox23 {
+    width: 50%;
+    height: 50%;
+}
+
+
+
+
+.product {
+    display: flex;
+}
+
+.mainbox5 {
+    padding: 100px 0;
+}
+
+
+
 
 
 

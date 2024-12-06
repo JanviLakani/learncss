@@ -156,12 +156,18 @@ p {
 
 .endless p {
     font-size: 23px;
-    padding-top: 25px;
+    /* padding-top: 25px; */
+    padding: 25px 0;
+}
+
+
+#project {
+    margin: 90px 0;
 }
 
 .firstbox {
     padding-top: 35px;
-    padding-right: 20px;
+    width: 32%;
 }
 
 .mainbox img {
@@ -184,7 +190,13 @@ p {
 
 .mainbox {
     display: flex;
+    justify-content: space-between;
+}
 
+
+
+#collaborat {
+    margin: 90px 0;
 }
 
 
@@ -195,8 +207,8 @@ p {
 }
 
 .mainbox1 {
-    padding: 100px 0;
     display: flex;
+    justify-content: space-between;
 
 }
 
@@ -208,6 +220,16 @@ p {
 .doeswork p {
     padding-bottom: 30px;
 }
+
+.imagess {
+    width: 40%;
+}
+
+.doeswork {
+    width: 50%;
+}
+
+
 
 
 .doeswork a {
@@ -221,13 +243,21 @@ p {
 }
 
 .mainbox2 {
-    padding: 100px 0;
+    /* justify-content: space-between
+    ; */
+    width: 40%;
 
 
 }
 
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .mainbox2 h1 {
-    padding-bottom: 40px;
+    padding-bottom: 4
 }
 
 .contact {
@@ -250,11 +280,14 @@ p {
 
 }
 
-.product {
-    display: flex;
-
+.mainbox23 img {
+    width: 100%;
+    height: 100%;
 }
 
-.mainbox5 {
-    padding: 100px 0;
+
+#safe {
+    margin-top: 100%;
 }
+
+

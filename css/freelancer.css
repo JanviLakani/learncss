@@ -195,7 +195,7 @@ p {
 
 
 
-#collaborat {
+#collaborat ,#safe  {
     margin: 90px 0;
 }
 
@@ -203,7 +203,7 @@ p {
 
 .imagess img {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .mainbox1 {
@@ -263,6 +263,15 @@ p {
 .contact {
     display: flex;
     padding: 65px 10px;
+    justify-content: space-between;
+}
+
+.livechat1 {
+    width: 45%;
+}
+
+.livechat2 {
+    width: 45%;
 }
 
 .contact h3 {
@@ -282,12 +291,93 @@ p {
 
 .mainbox23 img {
     width: 100%;
+    /* height: 100%; */
+}
+
+.Safe-and-secure {
+    justify-content: space-between;
+    display: flex;
+}
+
+.safeimages {
+    width: 40%;
+}
+
+.safeimages img {
+    width: 100%;
     height: 100%;
 }
 
-
-#safe {
-    margin-top: 100%;
+.safedata {
+    width: 50%;
+    color: #12151B;
 }
+
+.maintital {
+    font-size: 36px;
+}
+
+.safedata p {
+    padding: 26px 0;
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.pay-support {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+
+.pay {
+    width: 50%;
+}
+
+.support {
+    width: 35%;
+}
+
+.pay-support img {
+    width: 72px;
+}
+
+.pay-support h4 {
+
+    font-size: 21px;
+    margin-top: 20px;
+
+}
+
+#waiting {
+    background-color: #232A35;
+    color: white;
+    padding: 80px 0;
+}
+
+.postproject {
+    margin: 90px 0;
+}
+
+
+.happy a {
+    display: inline-block;
+    padding: 11px 30px;
+    background-color: #C40D6C;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+.postproject p {
+    padding: 31px 0;
+    font-size: 26px;
+    
+}
+
 
 

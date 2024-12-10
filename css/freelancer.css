@@ -42,7 +42,7 @@ body {
 
 
 .container {
-    width: 75%;
+    width: 73%;
     margin: 0 auto;
 
 
@@ -57,9 +57,10 @@ header .container {
 
 header {
     background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
     width: 100%;
+    position: fixed;
     top: 0;
+
 }
 
 .images {
@@ -94,25 +95,29 @@ ul li a {
     color: white;
     text-decoration: none;
     padding: 8px;
-    background-color: #C40D6C;
-    border-radius: 5px;
+    background-color: #e60278;
+    border-radius: 3px;
+    font-weight: bold;
 
 }
 
-a:hover {
+/* a:hover {
     color: #29B2FE;
-}
+} */
+ header a:hover, footer a:hover {
+    color: #589AD2;
+ }
 
+ .post:hover {
+background-color: #C40D6C;
+    color: white;
+ }
 
 
 #hero {
     background-image: url(../pics/client-desktop.webp);
     background-size: cover;
-    height: 95vh;
-
-
-
-
+    height: 87vh;
 }
 
 .helpbusiness {
@@ -123,12 +128,12 @@ a:hover {
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 45px;
 
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 46px;
     margin-bottom: 12px;
 }
 
@@ -159,7 +164,13 @@ p {
     font-size: 22px;
     /* padding-top: 25px; */
     padding: 25px 0;
+    /* line-height: 26px; */
     
+}
+
+.firstbox p {
+    line-height: 26px;
+    font-size: 18px;
 }
 
 
@@ -217,15 +228,10 @@ p {
     justify-content: space-between;
 
 }
-
-.doeswork h3 {
-    padding: 15px 0;
+.doeswork h2 {
+    padding-bottom: 13px;
 }
 
-
-.doeswork p {
-    padding-bottom: 30px;
-}
 
 .imagess {
     width: 40%;
@@ -251,7 +257,7 @@ p {
 .mainbox2 {
     /* justify-content: space-between
     ; */
-    width: 40%;
+    width: 50%;
 
 
 }
@@ -262,8 +268,8 @@ p {
 }
 
 
-.mainbox2 h1 {
-    padding-bottom: 4
+.mainbox2 h2 {
+    font-size: 34px;
 }
 
 .contact {
@@ -289,17 +295,19 @@ p {
     width: 72px;
 }
 
-.contact h3 {
-    padding: 25px 0;
+.mainbox2 p {
+    font-size: 21px;
 }
 
-.contact p {
+
+/* .contact p {
     padding-bottom: 50px;
     padding-right: 10px;
-}
+    font-size: 21px;
+} */
 
 .mainbox23 {
-    width: 50%;
+    width: 45%;
 
 
 }
@@ -329,7 +337,7 @@ p {
 }
 
 .maintital {
-    font-size: 36px;
+    font-size: 40px;
 }
 
 .safedata p {
@@ -398,8 +406,13 @@ p {
 
 }
 
-.container p {
+/* .container p {
      font-size: 25px;
+} */
+
+.helpbusiness p {
+    font-size: 20px;
+    line-height: 29px;
 }
 
 .logoimeges {
@@ -437,16 +450,17 @@ p {
     margin-top: 70px;
 }
 
-.interior {
-    display: inline-block;
-    padding: 11px 30px;
-    background-color: #C40D6C;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
+
+
+.abc {
+    padding: 12px 34px;
+    font-size: 20px;
+}
+
+.talent {
+    padding: 11px 28px;
     font-weight: bold;
     font-size: 20px;
-
 }
 
 #additional {
@@ -475,12 +489,12 @@ p {
     column-gap: 50px;
 }
 
-.hire {
-    /* padding-top: 10px; */
+.hire a:hover {
+    color: #29B2FE;
 }
 
 #codeofconduct {
-    background-color: #101113;
+    background-color: #12151B;
     padding: 25px 0;
     color: white;
 }
@@ -505,14 +519,15 @@ ul li .childs {
 
 .india ul li {
     list-style-type: none;
-    font-size: 14px;
+    font-size: 15px;
     row-gap: 20px;
-    line-height: 22px;
+    line-height: 24px;
     
 }
 
 .space ul li {
     line-height: 30px;
+    padding-left: 15px;
 }
 
 .ul li {
@@ -531,41 +546,46 @@ ul li .childs {
 .footerbottom {
     display: flex;
     justify-content: space-between;
-    font-size: 10px;
     margin-top: 16px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .posted {
-    padding-right: 10px;
-    width: 50%;
+    font-size: 13px;
 }
 
-.icons .icon {
+
+.icons a {
     padding-right: 10px;
+    text-decoration: none;
+    color: white;
 }
 
-.users {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-}
 
 .trademark {
-    width: 50%;
+    width: 60%;
 }
 
-.trademark h6 {
-    font-size: 9px;
+.trademark p {
+    font-size: 11px;
+    line-height: 20px;
 }
 
-.trademark h4  {
-    font-size: 10px;
-}
-.trademark h5 {
-    font-size: 9px;
+.facebook:hover {
+    color: #1877F2;
 }
 
+.twitter:hover {
+   color: #00B6F1; 
+}
+
+.youtube:hover {
+    color: #E80203;
+}
+.instagram:hover {
+    color: #A6278D;
+}
+ 
 
 
 

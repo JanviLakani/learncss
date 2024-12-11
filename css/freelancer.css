@@ -241,6 +241,10 @@ p {
     width: 50%;
 }
 
+.just p {
+    font-size: 24px;
+}
+
 
 
 
@@ -420,7 +424,7 @@ p {
     /* width: 30%; */
     justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 130px;
+    row-gap: 50px;
 
     
 
@@ -584,6 +588,10 @@ ul li .childs {
 }
 .instagram:hover {
     color: #A6278D;
+}
+
+#logos {
+    padding: 100px 0;
 }
  
 

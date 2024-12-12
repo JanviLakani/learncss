@@ -1,0 +1,103 @@
+/*
+Theme Name: tvarit
+Description: Tvarit WordPress Theme
+Author: plue
+Author URI: https://plue.es
+Version: 1.1.6
+Text Domain: theme
+*/
+
+:root {
+  --base-color-text: #000000;
+  --base-color-text-invert: #FFFFFF;
+  --base-color-accent: #55AA66; /*#CC6666;*/
+  --base-color-light: #BBBBBB;
+  --base-color-background: #EEEEEE;
+  --base-color-background-accent: #BFC4D6;
+  --base-font-family: "Noto Sans", sans-serif;
+  --base-font-weight: normal;
+  --base-line-height: 1.5;
+  --base-font-scale: 1;
+  --base-font-size: calc(18px * var(--base-font-scale));
+  --base-font-size-small: calc(16px * var(--base-font-scale)); /*0.8888888em*/
+  --base-font-size-medium: calc(30px * var(--base-font-scale))
+  --base-font-size-symbols: 98px;
+  /*rosa: #ED1B4A40;*/
+
+  --base-headings-color: #112266; /*module candidate*/
+  --base-headings-font-family: "Segoe UI", "Noto Sans", sans-serif;
+  --base-headings-font-weight: normal;
+  --base-headings-line-height: 1.25;
+  --base-headings-font-size-1: calc(65px * var(--base-font-scale));
+  --base-headings-font-size-2: calc(40px * var(--base-font-scale));
+  --base-headings-font-size-3: calc(25px * var(--base-font-scale));
+  --base-headings-font-size-4: calc(25px * var(--base-font-scale)); /*custom*/
+  --base-headings-font-size-5: calc(18px * var(--base-font-scale)); /*custom*/
+
+  --base-layout-width: 1800px;
+  --base-content-width: 1800px;
+  --base-offset: 48px; /*custom*/
+  --base-offset-vertical: 220px; /*128px*/
+  --base-offset-footer-vertical: 128px;
+  --base-space: 24px;
+  --base-gap: var(--base-space);
+  --base-offset-tv: 11.5vw;
+
+  --header-height: calc(160px * var(--base-font-scale));
+  --header-offset: var(--base-offset);
+  --header-background: var(--base-color-background);
+  --header-color: var(--base-headings-color);
+  --header-color-accent: var(--base-color-text);
+}
+
+body.is-scrolled {
+  --header-height: calc(100px * var(--base-font-scale));
+}
+
+@media (min-width: 1200px) and (max-width: 1999px) {
+  :root {
+    --base-layout-width: calc(100vw - 2*var(--base-offset-tv));
+    --base-content-width: calc(100vw - 2*var(--base-offset-tv));
+  }
+}
+
+@media (max-width: 1799px) {
+  :root {
+    --base-font-scale: 0.8;
+  }
+}
+
+@media (max-width: 999px) {
+  :root {
+    --base-offset: 24px; /*custom*/
+    --base-offset-vertical: 128px;
+  }
+}
+
+@media (max-width: 781px) {
+  :root {
+    --base-font-size: 14px;
+    --base-font-size-small: 12px;
+    --base-font-size-medium: 24px; /*1.714285em*/
+    --base-headings-font-size-1: 24px;
+    --base-headings-font-size-2: 24px;
+    --base-headings-font-size-3: 14px; /*custom*/
+    --base-headings-font-size-4: 14px; /*custom*/
+    --base-line-height: 1.6; /*custom*/
+    --base-headings-line-height: 1.2; /*custom*/
+  }
+}
+
+@media (max-width: 599px) {
+  :root {
+    --base-offset: 18px; /*custom*/
+    --base-offset-vertical: 64px;
+    --header-height: calc(140px * var(--base-font-scale));
+    --base-headings-line-height: 1.3;
+    --base-font-size-medium: 20px; /*custom*/
+  }
+
+  body.is-scrolled {
+    --header-height: calc(80px * var(--base-font-scale));
+  }
+}

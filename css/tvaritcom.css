@@ -148,7 +148,7 @@ body {
     line-height: 23px;
 }
 
-.learnmore a {
+.learnmoreabout {
     display: inline-block;
     text-decoration: none;
     padding: 13px 23px;
@@ -166,6 +166,27 @@ body {
 .maintital {
     color: #112266;
     font-size: 36px;
+}
+
+.challenges h3 {
+    color: #112266;
+    font-size: 26px;
+}
+
+.images1 {
+    width: 20%;
+}
+
+.images2 {
+    width: 50%;
+}
+
+.images3 {
+    width: 20%;
+}
+
+.challenges {
+    display: flex;
 }
 
 

@@ -231,6 +231,13 @@ body {
     background-size: cover;
     background-position: center;
     height: 48%;
+
+    border: 1px solid red;
+    
+}
+.miniimages:hover {
+color: #112266;
+border: 1px solid rgb(0, 255, 64);
     
 }
 

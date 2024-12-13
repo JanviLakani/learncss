@@ -174,33 +174,56 @@ body {
     font-size: 26px;
 }
 
-.challenges {
-    /* display: flex; */
-    justify-content: space-between;
-    position: relative;
-}
+
 
 .images1 {
     width: 23%;
-    padding: 250px 20px;
+    /* padding: 250px 20px; */
     background-image: url(../pics/dustbinbackground.png);
     background-size: cover;
     background-position: center;
     border-radius: 25px;
-    
+    display: flex;
+    align-items: flex-end;
+     
   
 }
 
-.images1 h2 {
-  position: absolute;
-  bottom: 20px;
+.hello {
+    padding: 10px;
+    color: white;
+    background-color: #55AA66;
+    border-radius: 50%;
+    padding-right: 1px;
 }
+
+.Scrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 25px;
+    
+}
+
+.Scrap h2 {
+    font-size: 15px;
+}
+
+.Scrap  .plusblue {
+    padding-right: 15px;
+}
+
+
 
 
 
 .challenges {
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
+    display: flex;
+
+    
 }
 
 .images2 {
@@ -208,19 +231,31 @@ body {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
+
     
 
 }
 
 .images3 {
     width: 23%;
-    padding: 250px 20px;
+    /* padding: 250px 20px; */
     background-image: url(../pics/mind-khowlege.png);
     background-size: cover;
     background-position: center;
     border-radius: 25px;
+    display: flex;
+    align-items: flex-end;
+   
     
 }
+.drain {
+    padding: 25px;   
+}
+.drain h2 {
+    font-size: 15px;
+   
+}
+
 
 
 
@@ -231,13 +266,14 @@ body {
     background-size: cover;
     background-position: center;
     height: 48%;
-
     border: 1px solid red;
-    
+    /* display: flex;
+    align-items: flex-end; */
+   
 }
 .miniimages:hover {
 color: #112266;
-border: 1px solid rgb(0, 255, 64);
+border: 1px solid blue;
     
 }
 
@@ -251,6 +287,8 @@ border: 1px solid rgb(0, 255, 64);
 
 .img1 {
     background-image: url(../pics/gettt.png);
+    display: flex;
+    align-items: flex-end;
 }
 
 .img2 {
@@ -264,3 +302,68 @@ border: 1px solid rgb(0, 255, 64);
 .img4 {
     background-image: url(../pics/milk-energy-cost.png);
 }
+
+#tvaritwork {
+    padding: 100px 0;
+
+}
+
+.reimagine p {
+    font-size: 29px;
+    color: #112266;
+}
+
+.day123 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reimagine p {
+    padding: 13px 0;
+}
+
+
+.day1 {
+    width: 32%;
+    /* border: 2px solid greenyellow; */
+    background-color: #FFFFFF;
+    padding: 24px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 30px;
+
+
+}
+
+.day1data {
+    width: 75%;
+}
+
+.day2 {
+    width: 32%;
+}
+
+.day3 {
+    width: 32%;
+}
+
+.day1data h3 {
+    font-size: 18px;
+    color: gray;
+    padding-top: 4px;
+}
+.day1data p {
+    color: rgb(84, 82, 82);
+    font-size: 15px;
+    padding-bottom: 38px;
+}
+.day1images {
+    width: 20%;
+}
+
+.day1images img {
+    width: 100%;
+    height: 100%;
+}
+
+ 

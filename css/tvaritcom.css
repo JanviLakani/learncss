@@ -1,79 +1,73 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    background-color: #EEEEEE;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    padding: 12px 0;
+  background-color: #eeeeee;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 12px 0;
 }
 
 body {
-    font-family: sans-serif;
-    background-color: #EEEEEE;
+  font-family: sans-serif;
+  background-color: #eeeeee;
 }
 
 .container {
-    width: 77%;
-    margin: 0 auto;
+  width: 77%;
+  margin: 0 auto;
 }
 
 .tvaritcom {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .tvaritlogo {
-    width: 21%;
+  width: 21%;
 }
 
 .tvaritlogo img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .tvariticon {
-    width: 5%;
+  width: 5%;
 }
 
 #vision {
-    padding-top: 19%;
+  padding-top: 19%;
 }
-
-
 
 .tvariticon .blue {
-    font-size: 32px;
-    color: #112266;
-    padding-top: 11px;
+  font-size: 32px;
+  color: #112266;
+  padding-top: 11px;
 }
 
-
-
 .energy {
-
-    width: 50%;
-    color: #112266;
+  width: 50%;
+  color: #112266;
 }
 
 .energy h1 {
-    font-size: 52px;
-    font-weight: bold;
+  font-size: 52px;
+  font-weight: bold;
 }
 
 .energy .metal {
-    font-size: 54px;
-    padding-bottom: 22px;
+  font-size: 54px;
+  padding-bottom: 22px;
 }
 
 .energy p {
-    font-size: 21px;
-    padding-bottom: 130px;
-
+  font-size: 21px;
+  padding-bottom: 130px;
 }
 
 /* .expert {
@@ -84,47 +78,41 @@ body {
 } */
 
 .expert {
-    width: 700px;
-    height: 100px;
-    /* border: 2px solid black; */
-    background-color: #55AA66;
-    color: black;
-    position: absolute;
-    top: -40px;
+  width: 700px;
+  height: 100px;
+  /* border: 2px solid black; */
+  background-color: #55aa66;
+  color: black;
+  position: absolute;
+  top: -40px;
 }
 
 .expert a {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 35px;
-    padding-left: 60%;
-
-
-
-
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 35px;
+  padding-left: 60%;
 }
 
 .white {
-    color: white;
+  color: white;
 }
 
-
-
 .youtube {
-    position: relative;
+  position: relative;
 }
 
 #logos,
 #khowledge {
-    padding: 230px 0;
+  padding: 230px 0;
 }
 
 .procast {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* .procast img {
@@ -133,237 +121,272 @@ body {
 } */
 
 .Industrial {
-    justify-content: space-between;
-    display: flex;
+  justify-content: space-between;
+  display: flex;
 }
 
 .zero {
-    width: 40%;
+  width: 40%;
 }
 
 .learnmore {
-    width: 55%;
+  width: 55%;
 }
 
 .learnmore p {
-    line-height: 23px;
+  line-height: 23px;
 }
 
 .learnmoreabout {
-    display: inline-block;
-    text-decoration: none;
-    padding: 13px 23px;
-    color: white;
-    background-color: #55AA66;
-    border-radius: 22px;
-    margin-top: 22px;
-
+  display: inline-block;
+  text-decoration: none;
+  padding: 13px 23px;
+  color: white;
+  background-color: #55aa66;
+  border-radius: 22px;
+  margin-top: 22px;
 }
 
 #knowabout {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .maintital {
-    color: #112266;
-    font-size: 36px;
+  color: #112266;
+  font-size: 39px;
 }
 
 .challenges h3 {
-    color: #112266;
-    font-size: 26px;
+  color: #112266;
+  font-size: 26px;
 }
 
-
-
 .images1 {
-    width: 23%;
-    /* padding: 250px 20px; */
-    background-image: url(../pics/dustbinbackground.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 25px;
-    display: flex;
-    align-items: flex-end;
-     
-  
+  width: 23%;
+  /* padding: 250px 20px; */
+  background-image: url(../pics/dustbinbackground.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .hello {
-    padding: 10px;
-    color: white;
-    background-color: #55AA66;
-    border-radius: 50%;
-    padding-right: 1px;
+  padding: 10px;
+  color: white;
+  background-color: #55aa66;
+  border-radius: 50%;
+  padding-right: 1px;
 }
 
 .Scrap {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 25px;
-    
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 20px;
+  /* padding: 25px; */
 }
 
 .Scrap h2 {
-    font-size: 15px;
+  font-size: 15px;
 }
 
-.Scrap  .plusblue {
-    padding-right: 15px;
+.Scrap .plusblue {
+  padding-right: 15px;
 }
-
-
-
-
 
 .challenges {
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-    display: flex;
-
-    
+  /* justify-content: space-between; */
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .images2 {
-    width: 50%;
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-
-    
-
+  width: 50%;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  background-color: #fff;
 }
 
 .images3 {
-    width: 23%;
-    /* padding: 250px 20px; */
-    background-image: url(../pics/mind-khowlege.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 25px;
-    display: flex;
-    align-items: flex-end;
-   
-    
+  width: 23%;
+  /* padding: 250px 20px; */
+  background-image: url(../pics/mind-khowlege.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  display: flex;
+  align-items: flex-end;
 }
 .drain {
-    padding: 25px;   
+  padding: 25px;
 }
 .drain h2 {
-    font-size: 15px;
-   
+  font-size: 15px;
 }
-
-
-
 
 .miniimages {
-    width: 48%;
-    padding: 125px 35px;
-    border-radius: 25px;
-    background-size: cover;
-    background-position: center;
-    height: 48%;
-    border: 1px solid red;
-    /* display: flex;
+  width: 48%;
+  /* padding: 125px 35px; */
+  border-radius: 25px;
+  background-size: cover;
+  background-position: center;
+  height: 48%;
+  border: 1px solid red;
+  /* display: flex;
     align-items: flex-end; */
-   
 }
 .miniimages:hover {
-color: #112266;
-border: 1px solid blue;
-    
+  color: #112266;
+  border: 1px solid blue;
 }
 
 .section2 {
-    color: #112266;
-    font-size: 28px;
-    padding-bottom: 18px;
+  color: #112266;
+  font-size: 28px;
+  padding-bottom: 18px;
 }
 
-
-
 .img1 {
-    background-image: url(../pics/gettt.png);
-    display: flex;
-    align-items: flex-end;
+  background-image: url(../pics/gettt.png);
+  display: flex;
+  align-items: flex-end;
 }
 
 .img2 {
-    background-image: url(../pics/computertvarit.png);
+  background-image: url(../pics/computertvarit.png);
 }
 
 .img3 {
-    background-image: url(../pics/energycost-tvarit.png);
+  background-image: url(../pics/energycost-tvarit.png);
 }
 
 .img4 {
-    background-image: url(../pics/milk-energy-cost.png);
+  background-image: url(../pics/milk-energy-cost.png);
 }
 
 #tvaritwork {
-    padding: 100px 0;
-
+  padding: 230px 0;
 }
 
 .reimagine p {
-    font-size: 29px;
-    color: #112266;
+  font-size: 29px;
+  color: #112266;
 }
 
 .day123 {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .reimagine p {
-    padding: 13px 0;
+  padding: 13px 0;
 }
 
-
 .day1 {
-    width: 32%;
-    /* border: 2px solid greenyellow; */
-    background-color: #FFFFFF;
-    padding: 24px;
-    justify-content: space-between;
-    display: flex;
-    border-radius: 30px;
-
-
+  width: 32%;
+  /* border: 2px solid greenyellow; */
+  background-color: #ffffff;
+  padding: 24px;
+  justify-content: space-between;
+  display: flex;
+  border-radius: 30px;
 }
 
 .day1data {
-    width: 75%;
+  width: 75%;
 }
 
 .day2 {
-    width: 32%;
+  width: 32%;
 }
 
 .day3 {
-    width: 32%;
+  width: 32%;
 }
 
 .day1data h3 {
-    font-size: 18px;
-    color: gray;
-    padding-top: 4px;
+  font-size: 18px;
+  color: gray;
+  padding-top: 4px;
 }
 .day1data p {
-    color: rgb(84, 82, 82);
-    font-size: 15px;
-    padding-bottom: 38px;
+  color: rgb(84, 82, 82);
+  font-size: 15px;
+  padding-bottom: 38px;
 }
 .day1images {
-    width: 20%;
+  width: 20%;
 }
 
 .day1images img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+}
+.Aiproduction {
+  display: flex;
+  justify-content: space-between;
 }
 
- 
+.aisolutions {
+  width: 30%;
+}
+
+.production {
+  width: 65%;
+}
+
+.aisolutions p {
+  padding: 20px 0;
+  line-height: 25px;
+  font-size: 21px;
+}
+.production {
+  display: flex;
+  justify-content: space-between;
+}
+.greatteem {
+  padding: 26px;
+  width: 32%;
+  border: 2px solid greenyellow;
+  background-color: #ffffff;
+  /* padding: 24px; */
+  /* justify-content: space-between; */
+  /* display: flex; */
+  border-radius: 30px;
+  height: 67%;
+  text-align: center;
+}
+
+.peopleimages {
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  width: 100%;
+}
+.peopleimages img {
+  display: block;
+  /* width:  70px; */
+  width: 40%;
+
+  /* padding-left: 25px; */
+}
+
+.greatteam {
+  color: #112266;
+  font-size: 22px;
+  padding: 25px 0;
+  /* text-align: center; */
+  font-weight: bold;
+}
+
+.greatteam {
+  font-size: 21px;
+}
+
+

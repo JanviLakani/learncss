@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#work {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .container-5 {
+    height: 100%;
+    width: 80%;
+  }
+  
+  .challenges {
+    height: 80%;
+    height: 100%;
+  }
+  
+  .firstCard {
+    width: 23%;
+    background-image: url(../pics/dustbinbackground.png);
+    margin: 10px;
+  }
+  .lastCard {
+    width: 23%;
+    background-image: url(../pics/mind-khowlege.png);
+    margin: 10px;
+  }
+  .middlemain {
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .middlepart {
+    /* width: 400px; */
+    justify-content: space-around;
+    margin: 0px 5px;
+  }
+  
+  .middlepartfirstcard,
+  .middlepartsecoundcard,
+  .middlepartthreecard,
+  .middlepartfourcard {
+    width: 100%;
+    height: 220px;
+    margin: 10px 5px;
+    border-radius: 25px;
+  }
+  .middlepartfirstcard {
+    background-image: url(../pics/gettt.png);
+    display: flex;
+    align-items: flex-end;
+  }
+  .middlepartsecoundcard {
+    background-image: url(../pics/gettt.png);
+    display: flex;
+    align-items: flex-end;
+  }
+  .middlepartthreecard {
+    background-image: url(../pics/gettt.png);
+    display: flex;
+    align-items: flex-end;
+  }
+  .middlepartfourcard {
+    background-image: url(../pics/gettt.png);
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .card {
+    /* background-color: #bd7e7e; */
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .script {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .script h2 {
+    width: 80%;
+  }
+  
+  .greendot {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #55AA66;
+    position: relative;
+  }
+  
+  .plusicon {
+    position: absolute;
+    top: 16px;
+    left: 17px;
+    color: #fff;
+  }
+  
+  .middlepart {
+    width: 100%;
+  }
+  
+  .middle {
+    display: flex;
+  }
+  /* Container to position image and overlay */
+  .image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 8px; /* Optional: for rounded corners */
+  }
+  
+  /* Image styling */
+  
+  /* Overlay styling */
+  .card .overlay,
+  .middlepartfirstcard .overlay,
+  .middlepartsecoundcard .overlay,
+  .middlepartthreecard .overlay,
+  .middlepartfourcard .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(24, 24, 95);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 25px;
+    color: #fff;
+  }
+  
+  /* Hover effect */
+  .card:hover,
+  .middlepartfirstcard:hover,
+  .middlepartsecoundcard:hover,
+  .middlepartthreecard:hover,
+  .middlepartfourcard:hover {
+    transform: scale(1);
+  }
+  
+  .card:hover .overlay,
+  .middlepartfirstcard:hover .overlay,
+  .middlepartsecoundcard:hover .overlay,
+  .middlepartthreecard:hover .overlay,
+  .middlepartfourcard:hover .overlay {
+    opacity: 1; /* Show overlay */
+  }
+  
+  .overlay {
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+  }
+  .overlaybottompart {
+      width: 100%;
+      position: relative;
+  }
+  .overlay .text {
+    color: #fff;
+    padding: 25px 20px;
+    font-size: 16px;
+    position: relative;
+    width: 70%;
+  }
+  .rightarrow {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  .checkicon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  

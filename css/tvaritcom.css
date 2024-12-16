@@ -20,6 +20,7 @@ body {
 .container {
     width: 77%;
     margin: 0 auto;
+    /* border: 1px solid red; */
 }
 
 .tvaritcom {
@@ -442,7 +443,7 @@ body {
     font-weight: bold;
 }
 
-.day1:hover ,.greatteem:hover {
+.day1:hover ,.greatteem:hover , .expertper:hover , .distrol:hover{
     box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.3);
 }
 
@@ -451,8 +452,8 @@ body {
     margin-bottom: 20px;
 }
 
-#industryexpert , #whytvarit{
-    padding: 100px 0;
+#industryexpert , #whytvarit ,#approach ,#Sponsored{
+    padding: 150px 0;
 }
 
 .greatteem img  {
@@ -460,3 +461,132 @@ body {
     height: 50%;
     
 }
+
+/* .trust{
+    background-color: #eb0a0a;
+} */
+.trust p {
+    font-size: 37px;
+    color: #112266;
+}
+
+.global {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nusinesshead {
+    /* border: 1px solid rgb(76, 75, 75); */
+    width: 50%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0 100px;
+    background-color: #ffffff;
+    padding: 30px 25px 100px;
+}
+.nusinesshead {
+    line-height: 23px;
+    font-size: 19px;
+}
+
+.headdirector {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.headimages{
+    width: 18%;
+}
+
+.headimages {
+    /* width: 100%; */
+   
+}
+
+.headname {
+    width: 50%;
+    text-align: left;
+}
+
+/* .headname p {
+    line-height: 23px;
+} */
+
+.headcompany{
+    width: 25%;
+}
+
+.headcompany img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.manufacturing p {
+    font-size: 35px;
+    color: #112266;
+    padding: 20px 0;
+ 
+}
+  
+
+
+.optimize {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.expertper {
+   width: 32%;
+   background-color: #ffffff;
+   border-radius: 15px;
+   /* display: flex; */
+   /* justify-content: center; */
+   text-align: center;
+   padding: 25px 50px;
+}
+
+
+.expertper img {
+    padding: 21px 0;
+}
+
+.Germany {
+    display: flex;
+    justify-content: space-between;
+}
+
+.State {
+    width: 30%;
+}
+
+.distrol {
+    width: 65%;
+    border-radius: 15px;
+}
+
+.distrol img {
+    width: 100%;
+    height: 100%;
+}
+
+.State a {
+    color: #55AA66;
+    font-size: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

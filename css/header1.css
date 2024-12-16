@@ -54,3 +54,7 @@ nav ul li a {
 nav ul li a :hover {
     color: #fc6019;
 }
+
+ul li a {
+    display: inline-block;
+}

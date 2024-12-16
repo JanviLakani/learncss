@@ -154,7 +154,7 @@ body {
 
 .maintital {
     color: #112266;
-    font-size: 39px;
+    font-size: 40px;
 }
 
 .challenges h3 {
@@ -462,12 +462,12 @@ body {
     
 }
 
-/* .trust{
-    background-color: #eb0a0a;
-} */
+
 .trust p {
-    font-size: 37px;
+    font-size: 31px;
     color: #112266;
+    padding-top: 7px;
+    padding-bottom: 25px;
 }
 
 .global {
@@ -478,16 +478,16 @@ body {
 
 .nusinesshead {
     /* border: 1px solid rgb(76, 75, 75); */
-    width: 50%;
+    width: 58%;
     border-radius: 20px;
-    text-align: center;
+    /* text-align: center; */
     padding: 0 100px;
     background-color: #ffffff;
-    padding: 30px 25px 100px;
+    padding: 32px 25px 155px;
 }
-.nusinesshead {
-    line-height: 23px;
-    font-size: 19px;
+.nusinesshead p {
+    line-height: 24px;
+    font-size: 16px;
 }
 
 .headdirector {
@@ -495,21 +495,37 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
+    align-items: center;
 }
 
-.headimages{
-    width: 18%;
-}
 
 .headimages {
-    /* width: 100%; */
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
    
 }
 
+.headimages img {
+    width: 100%;
+    height: 100%;
+}
+
 .headname {
-    width: 50%;
+    width: 51%;
     text-align: left;
 }
+
+.headname h2 {
+    font-size: 14px;
+}
+
+.headname p {
+    font-size: 14px;
+}
+
+
+
 
 /* .headname p {
     line-height: 23px;
@@ -525,9 +541,10 @@ body {
 }
 
 .manufacturing p {
-    font-size: 35px;
+    font-size: 32px;
     color: #112266;
-    padding: 20px 0;
+    padding-top: 8px;
+    padding-bottom: 35px;
  
 }
   
@@ -546,25 +563,43 @@ body {
    /* display: flex; */
    /* justify-content: center; */
    text-align: center;
-   padding: 25px 50px;
+   padding: 34px 50px 20px;
 }
 
 
 .expertper img {
-    padding: 21px 0;
+    /* padding: 21px 0; */
+    width: 54px;
+    height: 54px;
+}
+
+.expertper h2 {
+    padding-top: 28px;
+    color: rgb(87, 84, 84);
+    font-size: 18px;
 }
 
 .Germany {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.germanypart h2 {
+    padding-bottom: 33px;
 }
 
 .State {
-    width: 30%;
+    width: 25%;
+}
+
+.State p {
+    font-size: 17px;
+    line-height: 24px;
 }
 
 .distrol {
-    width: 65%;
+    width: 72%;
     border-radius: 15px;
 }
 
@@ -575,8 +610,85 @@ body {
 
 .State a {
     color: #55AA66;
-    font-size: 21px;
+    
 }
+#Terms-Conditions {
+    background-color: black;
+    color: white;
+    padding: 100px 20px 45px;
+}
+
+.logoimages {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoimages1 {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tvaritrgb {
+    width: 20%;
+}
+
+.tvaritrgb img {
+    width: 70px;
+    height: 70px;
+
+}
+
+.tvaritp {
+    color: #55AA66;
+    width: 70%;
+    
+}
+
+.tvaritp h2 {
+    font-size: 16px;
+}
+
+.tvaritp p {
+    line-height: 22px;
+}
+
+.logoimages2 {
+    width: 45%;
+}
+
+.logoimages2 .green {
+    color: #55AA66;
+    font-size: 42px;
+    padding: 0 23px;
+}
+
+.aboutustva {
+    display: flex;
+    /* align-items: center; */
+
+}
+
+
+ul li a {
+    list-style-type: none;
+    color: #55AA66;
+    display: inline-block;
+    display: flex;
+    text-decoration: none;
+}
+
+.gmbh p {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 25px;
+}
+
+
+
+
 
 
 

@@ -10,6 +10,8 @@ header {
     position: fixed;
     top: 0;
     padding: 12px 0;
+    /* padding-bottom: 12px; */
+    z-index: 999;
 }
 
 body {
@@ -38,11 +40,11 @@ body {
 }
 
 .tvariticon {
-    width: 5%;
+    /* width: 5%; */
 }
 
 #vision {
-    padding-top: 19%;
+    padding-top: 17%;
 }
 
 .tvariticon .blue {
@@ -68,7 +70,7 @@ body {
 
 .energy p {
     font-size: 21px;
-    padding-bottom: 130px;
+    padding-bottom: 160px;
 }
 
 /* .expert {
@@ -85,17 +87,18 @@ body {
     background-color: #55aa66;
     color: black;
     position: absolute;
-    top: -40px;
+    top: -50px;
 }
 
 .expert a {
     display: inline-block;
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bold;
-    padding-top: 35px;
+    padding-top: 38px;
     padding-left: 60%;
+    margin-right: 38px;
 }
 
 .white {
@@ -106,9 +109,13 @@ body {
     position: relative;
 }
 
-#logos,
-#khowledge {
+#logos
+ {
     padding: 230px 0;
+}
+
+#khowledge  {
+    padding: 50px 0 230px;
 }
 
 .procast {
@@ -131,7 +138,7 @@ body {
 }
 
 .learnmore {
-    width: 55%;
+    width: 57%;
 }
 
 .learnmore p {
@@ -212,8 +219,8 @@ body {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
-    background-color: #fff;
+    height: 565px;
+    /* background-color: #fff; */
 }
 
 .images3 {
@@ -278,13 +285,13 @@ body {
 }
 
 #tvaritwork {
-    padding: 230px 0;
+    padding: 210px 0;
 }
 
 .yourwork p {
     font-size: 29px;
     color: #112266;
-    padding: 13px 0;
+    padding: 11px 0;
 
 }
 
@@ -318,7 +325,7 @@ body {
     border-radius: 22px;
     color: #55AA66;
     font-weight: bold;
-    margin-top: 43px;
+    /* margin-top: 43px; */
     
 }
 
@@ -361,7 +368,7 @@ body {
 }
 
 .day1images {
-    width: 25%;
+    width: 20%;
 }
 
 .day1images img {
@@ -385,7 +392,7 @@ body {
 .aisolutions p {
     padding: 20px 0;
     line-height: 21px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .production {
@@ -451,9 +458,20 @@ body {
     font-weight: bold;
     margin-bottom: 20px;
 }
-
-#industryexpert , #whytvarit ,#approach ,#Sponsored{
+ #whytvarit {
     padding: 150px 0;
+
+    
+}
+
+#industryexpert {
+    padding: 100px 0;
+}
+#approach  {
+    padding: 150px 0 70px;
+}
+#Sponsored {
+    padding: 230px 0;
 }
 
 .greatteem img  {
@@ -544,7 +562,7 @@ body {
     font-size: 32px;
     color: #112266;
     padding-top: 8px;
-    padding-bottom: 35px;
+    padding-bottom: 40px;
  
 }
   
@@ -563,7 +581,7 @@ body {
    /* display: flex; */
    /* justify-content: center; */
    text-align: center;
-   padding: 34px 50px 20px;
+   padding: 40px 50px 20px;
 }
 
 
@@ -615,7 +633,7 @@ body {
 #Terms-Conditions {
     background-color: black;
     color: white;
-    padding: 100px 20px 45px;
+    padding: 130px 80px 60px;
 }
 
 .logoimages {
@@ -625,14 +643,15 @@ body {
 }
 
 .logoimages1 {
-    width: 45%;
+    /* width: 45%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .tvaritrgb {
-    width: 20%;
+    /* width: 20%; */
+    padding-right: 100px;
 }
 
 .tvaritrgb img {
@@ -643,7 +662,7 @@ body {
 
 .tvaritp {
     color: #55AA66;
-    width: 70%;
+    /* width: 70%; */
     
 }
 
@@ -656,7 +675,7 @@ body {
 }
 
 .logoimages2 {
-    width: 37%;
+    /* width: 45%; */
     display: flex;
     justify-content: space-between;
 }
@@ -664,12 +683,12 @@ body {
 .youtubelinkdin .green {
     color: #55AA66;
     font-size: 42px;
-    padding: 0 23px;
+    padding: 0 13px;
     
 }
 
 .aboutustva {
-    padding: 30px 35px;
+    padding: 30px 120px;
 }
 .aboutustva ul{
     display: flex;
@@ -682,12 +701,13 @@ list-style: none;
 
 }
 .nadca img {
-    width: 70%;
+    width: 170px;
     /* height: 100%; */
+    padding: 0 16px;
 }
 
 .prolince img{
-    width: 70%;
+    width: 80px;
     /* height: 100%; */
 }
 
@@ -707,11 +727,14 @@ ul li a {
 
 
 .visitus {
-    width: 52px;
-    height: 52px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
-    background-color: #0d71b8;
-    padding: 8px;
+    background-color: #0056A7;
+    padding: 6px;
+    position: fixed;
+    left: 13px;
+    bottom: 13px;
 }
 
 

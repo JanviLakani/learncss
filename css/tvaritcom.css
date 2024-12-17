@@ -656,19 +656,39 @@ body {
 }
 
 .logoimages2 {
-    width: 45%;
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.logoimages2 .green {
+.youtubelinkdin .green {
     color: #55AA66;
     font-size: 42px;
     padding: 0 23px;
+    
 }
 
 .aboutustva {
+    padding: 30px 35px;
+}
+.aboutustva ul{
     display: flex;
+    justify-content: space-between;
     /* align-items: center; */
 
+}
+.aboutustva ul li{
+list-style: none;
+
+}
+.nadca img {
+    width: 70%;
+    /* height: 100%; */
+}
+
+.prolince img{
+    width: 70%;
+    /* height: 100%; */
 }
 
 
@@ -676,8 +696,7 @@ ul li a {
     list-style-type: none;
     color: #55AA66;
     display: inline-block;
-    display: flex;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 .gmbh p {
@@ -686,6 +705,14 @@ ul li a {
     padding-top: 25px;
 }
 
+
+.visitus {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #0d71b8;
+    padding: 8px;
+}
 
 
 

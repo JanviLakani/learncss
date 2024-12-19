@@ -1,0 +1,19 @@
+
+
+.design h1::first-letter {
+
+    color: rgb(62, 33, 190);
+    font-size: 50px;
+}
+
+.design p::first-line {
+    color: rgb(162, 33, 173);
+}
+
+h1::after {
+    content: "**";
+}
+
+h1::before {
+    content: "???";
+}

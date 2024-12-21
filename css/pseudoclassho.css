@@ -1,0 +1,40 @@
+.demo1:link {
+    color: blue;
+}
+
+
+.demo1:hover {
+    color: purple;
+}
+
+.demo1:active {
+    color: yellow;
+}
+
+.demo1:visited {
+    color: green;
+}
+
+ul li:first-child a {
+    color: pink;
+}
+
+ul li:last-child a {
+    color: crimson;
+}
+
+ul li:nth-child(3) a {
+    color: darkblue;
+}
+
+ul li:nth-child(4) a {
+    color: rgb(51, 49, 27);
+}
+
+p i:first-child {
+    color: aqua;
+}
+
+p:first-child i {
+    color: darkviolet;
+}

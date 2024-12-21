@@ -1,0 +1,12 @@
+.combi > p {
+    color: rgb(106, 107, 30);
+}
+
+.combi h2+p {
+    color: rgb(91, 91, 219);
+    font-size: large;
+}
+
+.combi div ~ p {
+    color: brown;
+}
